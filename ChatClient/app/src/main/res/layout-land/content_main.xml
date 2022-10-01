@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="798dp"
+            android:layout_height="167dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/messagepic"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:contentDescription="@string/regpic"
+            android:scaleType="centerCrop"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText"
+            app:layout_constraintStart_toStartOf="parent"
+            android:hint="@string/username"
+            android:importantForAutofill="no" tools:targetApi="o"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/button" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintDimensionRatio="h,1:1"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="180dp"
+            app:layout_constraintVertical_bias="0.289"/>
+    <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:onClick="regUsername"
+            android:text="@string/register"
+            android:layout_marginEnd="180dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBaseline_toBaselineOf="@+id/editText"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:textFontWeight="700"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" android:id="@+id/textView4" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            tools:text="@string/registerprompt" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" app:layout_constraintHorizontal_bias="0.498"
+            tools:targetApi="p" android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.139"/>
+</android.support.constraint.ConstraintLayout>

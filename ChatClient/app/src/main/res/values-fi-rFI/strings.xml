@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chat Client</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="username">Käyttäjänimi</string>
+    <string name="title_activity_messages">Viestit</string>
+    <string name="messagebox">Kirjoita viesti</string>
+    <string name="registerprompt">Kirjoita käyttäjänimi ja paina \"Liity\"</string>
+    <string name="register">Liity</string>
+    <string name="regpic">Kuvituskuva</string>
+    <string name="send">Lähetä</string>
+</resources>
