@@ -17,4 +17,4 @@ Client käyttää osittain MVC mallia. Recyclerview esimerkiksi saa datansa tois
 classin metodista ja päivittää sen käyttöliittymään, toimien controllerina. Toisaalta viestien lähetys tapahtuu yhden classin sisällä, eikä noudata MVC 
 mallia.
 
-<a href="https://youtu.be/iEpdBruM8yMi"><img alt="Videosoitin" width="500px" src="video.png" /></a>
+<a href="https://youtu.be/iEpdBruM8yMi"><img alt="Videosoitin" width="700px" src="video.png" /></a>
